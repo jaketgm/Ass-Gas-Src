@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html, body {
+    height: 100%;
+    overflow-y: auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.app {
+    min-height: 100vh;
+    color: white;
+    background: radial-gradient(circle, rgba(30,40,45,1) 0%, rgba(25,35,40,1) 22%, rgba(0,0,0,1) 100%);
+}

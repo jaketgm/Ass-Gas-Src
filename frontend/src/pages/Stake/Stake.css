@@ -1,0 +1,117 @@
+.stake-container 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	height: 100vh;         
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+	font-family: sans-serif;
+	background-color: #111; 
+	color: #fff;           
+}
+
+.wallet-connect 
+{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.stake-form 
+{
+	max-width: 400px;
+	width: 100%;         
+	padding: 20px;
+	border: 1px solid #333;
+	border-radius: 8px;
+	background-color: #222; 
+}
+
+.form-group 
+{
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group label 
+{
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #fff; 
+}
+
+.form-group input 
+{
+	padding: 8px;
+	font-size: 1rem;
+	border: 1px solid #444;
+	border-radius: 4px;
+	background-color: #333; 
+	color: #fff;
+}
+
+.stake-form button 
+{
+	margin-top: 10px;
+	padding: 10px 15px;
+	background-color: #00b894; 
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	border-radius: 4px;
+	transition: background-color 0.2s ease;
+}
+
+.stake-form button:hover 
+{
+	background-color: #019374; 
+}
+
+.status-info 
+{
+	margin-top: 20px;
+	padding: 15px;
+	border: 1px solid #333;
+	border-radius: 8px;
+	background-color: #222; 
+	color: #fff;
+}
+
+.status-info p 
+{
+	margin: 5px 0;
+}
+
+.status-info button 
+{
+	margin-top: 10px;
+	padding: 10px 15px;
+	background-color: #0984e3; 
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-size: 1rem;
+	border-radius: 4px;
+	transition: background-color 0.2s ease;
+}
+
+.status-info button:hover 
+{
+	background-color: #0864b3; 
+}
+
+.loading-status 
+{
+	margin-top: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
