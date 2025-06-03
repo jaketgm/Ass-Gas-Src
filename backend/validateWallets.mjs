@@ -1,6 +1,13 @@
-import { Connection, PublicKey, clusterApiUrl } from '@solana/web3.js';
+import { Connection, PublicKey } from '@solana/web3.js';
+import dotenv from 'dotenv';
+import path from 'path';
 
-const connection = new Connection(clusterApiUrl('mainnet-beta'), 'confirmed');
+// Load environment variables
+dotenv.config({ path: path.resolve(process.cwd(), 'backend/.env') });
+
+// Use environment variable for API endpoint
+const solanaApiUrl = process.env.SOLANA_API_URL || "https://api.mainnet-beta.solana.com";
+const connection = new Connection(solanaApiUrl, 'confirmed');
 
 export default async function validateWallets(publicHash) {
     try {
